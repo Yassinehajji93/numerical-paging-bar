@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.wrapper h1 {
+    margin:  1em 0;
+    color: #1a1aff;
+}
+
+.wrapper p {
+	margin-bottom: 1em;
+}
+
+.numerical {
+	margin: 20px 0;
+}
+
+.numerical ul {
+	list-style: none;
+	text-align: center;
+}
+
+.numerical ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.numerical ul li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	background: #024959;
+	text-decoration: none;
+}
+
+.numerical ul li a:hover {
+	background: #ff0000;
+}
+
+/*Active web*/
+.numerical ul li .active {
+	background: #66a3ff;
+	font-weight: bold;
+}
